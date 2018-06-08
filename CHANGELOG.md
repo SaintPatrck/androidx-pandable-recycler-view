@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 2.0 - June 8th 2018
+- Replace Android support libraries with Android X libraries (Hello World, AndroidX)[https://android-developers.googleblog.com/2018/05/hello-world-androidx.html]
+- Upgrade Gradle build tools to version `3.2.0-alpha17`
+- Upgrade Bintray Gradle plugin to version `1.7.3`
+- Upgrade Maven Gradle plugin to version `2.0`
+
 ## Version 1.4 - January 17th 2017
 - Upgrade Robolectric version to `3.2.1`
 - Fix how `GroupViewHolder`'s expand and collapse method are called
