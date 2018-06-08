@@ -21,9 +21,9 @@ public class GenreViewHolder extends GroupViewHolder {
 
   public GenreViewHolder(View itemView) {
     super(itemView);
-    genreName = (TextView) itemView.findViewById(R.id.list_item_genre_name);
-    arrow = (ImageView) itemView.findViewById(R.id.list_item_genre_arrow);
-    icon = (ImageView) itemView.findViewById(R.id.list_item_genre_icon);
+    genreName = itemView.findViewById(R.id.list_item_genre_name);
+    arrow = itemView.findViewById(R.id.list_item_genre_arrow);
+    icon = itemView.findViewById(R.id.list_item_genre_icon);
   }
 
   public void setGenreTitle(ExpandableGroup genre) {

@@ -12,8 +12,7 @@ public class MultiCheckArtistViewHolder extends CheckableChildViewHolder {
 
   public MultiCheckArtistViewHolder(View itemView) {
     super(itemView);
-    childCheckedTextView =
-        (CheckedTextView) itemView.findViewById(R.id.list_item_multicheck_artist_name);
+    childCheckedTextView = itemView.findViewById(R.id.list_item_multicheck_artist_name);
   }
 
   @Override

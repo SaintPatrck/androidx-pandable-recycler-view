@@ -2,9 +2,8 @@ package com.thoughtbot.expandablerecyclerview;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.view.ViewGroup;
+
 import com.thoughtbot.expandablerecyclerview.listeners.ExpandCollapseListener;
 import com.thoughtbot.expandablerecyclerview.listeners.GroupExpandCollapseListener;
 import com.thoughtbot.expandablerecyclerview.listeners.OnGroupClickListener;
@@ -13,7 +12,10 @@ import com.thoughtbot.expandablerecyclerview.models.ExpandableList;
 import com.thoughtbot.expandablerecyclerview.models.ExpandableListPosition;
 import com.thoughtbot.expandablerecyclerview.viewholders.ChildViewHolder;
 import com.thoughtbot.expandablerecyclerview.viewholders.GroupViewHolder;
+
 import java.util.List;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 public abstract class ExpandableRecyclerViewAdapter<GVH extends GroupViewHolder, CVH extends ChildViewHolder>
     extends RecyclerView.Adapter implements ExpandCollapseListener, OnGroupClickListener {
@@ -44,7 +46,7 @@ public abstract class ExpandableRecyclerViewAdapter<GVH extends GroupViewHolder,
    * that holds a {@code android.view.View} of the given view type.
    */
   @Override
-  public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+  public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
     switch (viewType) {
       case ExpandableListPosition.GROUP:
         GVH gvh = onCreateGroupViewHolder(parent, viewType);
@@ -71,7 +73,7 @@ public abstract class ExpandableRecyclerViewAdapter<GVH extends GroupViewHolder,
    * ExpandableList#getVisibleItemCount()} in the list at which to bind
    */
   @Override
-  public void onBindViewHolder(ViewHolder holder, int position) {
+  public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
     ExpandableListPosition listPos = expandableList.getUnflattenedPosition(position);
     ExpandableGroup group = expandableList.getExpandableGroup(listPos);
     switch (listPos.type) {

@@ -11,7 +11,7 @@ public class ArtistViewHolder extends ChildViewHolder {
 
   public ArtistViewHolder(View itemView) {
     super(itemView);
-    childTextView = (TextView) itemView.findViewById(R.id.list_item_artist_name);
+    childTextView = itemView.findViewById(R.id.list_item_artist_name);
   }
 
   public void setArtistName(String name) {

@@ -11,7 +11,7 @@ public class FavoriteArtistViewHolder extends ChildViewHolder {
 
   public FavoriteArtistViewHolder(View itemView) {
     super(itemView);
-    favoriteArtistName = (TextView) itemView.findViewById(R.id.list_item_favorite_artist_name);
+    favoriteArtistName = itemView.findViewById(R.id.list_item_favorite_artist_name);
   }
 
   public void setArtistName(String name) {

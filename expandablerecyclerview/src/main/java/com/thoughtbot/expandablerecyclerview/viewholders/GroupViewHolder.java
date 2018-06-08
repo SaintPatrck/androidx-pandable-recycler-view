@@ -1,10 +1,12 @@
 package com.thoughtbot.expandablerecyclerview.viewholders;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.View.OnClickListener;
+
 import com.thoughtbot.expandablerecyclerview.listeners.OnGroupClickListener;
 import com.thoughtbot.expandablerecyclerview.models.ExpandableGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * ViewHolder for the {@link ExpandableGroup#title} in a {@link ExpandableGroup}
