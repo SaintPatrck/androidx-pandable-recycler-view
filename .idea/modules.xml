@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/axpandable-check-recyclerview/axpandable-check-recyclerview.iml" filepath="$PROJECT_DIR$/axpandable-check-recyclerview/axpandable-check-recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/axpandable-recyclerview/axpandable-recyclerview.iml" filepath="$PROJECT_DIR$/axpandable-recyclerview/axpandable-recyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/expandable-recycler-view.iml" filepath="$PROJECT_DIR$/expandable-recycler-view.iml" />
-      <module fileurl="file://$PROJECT_DIR$/expandablecheckrecyclerview/expandablecheckrecyclerview.iml" filepath="$PROJECT_DIR$/expandablecheckrecyclerview/expandablecheckrecyclerview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/expandablerecyclerview/expandablerecyclerview.iml" filepath="$PROJECT_DIR$/expandablerecyclerview/expandablerecyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
     </modules>
   </component>

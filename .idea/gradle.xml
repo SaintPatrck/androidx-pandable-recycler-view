@@ -8,8 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/expandablecheckrecyclerview" />
-            <option value="$PROJECT_DIR$/expandablerecyclerview" />
+            <option value="$PROJECT_DIR$/axpandable-check-recyclerview" />
+            <option value="$PROJECT_DIR$/axpandable-recyclerview" />
             <option value="$PROJECT_DIR$/sample" />
           </set>
         </option>
